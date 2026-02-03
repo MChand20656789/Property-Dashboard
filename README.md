@@ -39,8 +39,6 @@ data/          → Datasets (local only, not tracked in GitHub)
    streamlit run dashboard/dashboard_app.py
    ```
 
-## Example Preview
-![dashboard preview](docs/dashboard_example.png)
 
 ## Next Steps
 - Add model persistence (save/load trained model)
