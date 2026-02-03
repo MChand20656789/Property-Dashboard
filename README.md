@@ -23,6 +23,25 @@ scripts/       → Data import and analysis tools
 data/          → Datasets (local only, not tracked in GitHub)
 ```
 
+ ## 🧾 Data Source
+This project uses the **[USA Real Estate Dataset](https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset)** from Kaggle.
+
+After cloning this repository, download the dataset manually:
+
+1. Visit the Kaggle dataset page.  
+2. Download the file `realtor-data.csv`.  
+3. Place it in the `data/` folder:
+
+   ```
+   data/realtor-data.csv
+   ```
+4. Then run:
+   ```bash
+   python scripts/import_data.py
+   ```
+   to create your local database (`data/property.db`).
+
+
 ## Setup
 1. Clone the repo:
    ```bash
