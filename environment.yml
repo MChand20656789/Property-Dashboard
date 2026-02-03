@@ -1,0 +1,13 @@
+name: property-dashboard
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - joblib
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - seaborn
+  - sqlalchemy
+  - streamlit
+prefix: /opt/anaconda3/envs/property-dashboard

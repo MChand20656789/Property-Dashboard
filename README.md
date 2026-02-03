@@ -1,2 +1,48 @@
-# Property-Dashboard
-Property analytics and machine learning dashboard visualizing housing trends and predicting home values.
+# Real Estate Analytics Dashboard
+
+An interactive data dashboard built with **Streamlit**, **SQLAlchemy**, and **scikit-learn** using real U.S. property listings from Kaggle.  
+Visualize property prices, explore housing trends, and predict home values based on features.
+
+## Features
+- Load & visualize 2M+ property listings (sampled for performance)
+- Filter by state, view price distributions, and summary metrics
+- Predict property prices using a simple linear regression model
+- Real-time dashboard powered by Streamlit
+
+## Tech Stack
+- Python (pandas, scikit-learn, matplotlib, seaborn)
+- Streamlit for interactive UI
+- SQLite for data storage
+- SQLAlchemy for ORM and database operations
+
+## Project Structure
+```
+app/           → Database + CRUD operations  
+dashboard/     → Streamlit app interface  
+scripts/       → Data import and analysis tools  
+data/          → Datasets (local only, not tracked in GitHub)
+```
+
+## Setup
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/property-dashboard.git
+   cd property-dashboard
+   ```
+2. Create the environment:
+   ```bash
+   conda env create -f environment.yml
+   conda activate property-dashboard
+   ```
+3. Run the dashboard:
+   ```bash
+   streamlit run dashboard/dashboard_app.py
+   ```
+
+## Example Preview
+![dashboard preview](docs/dashboard_example.png)
+
+## Next Steps
+- Add model persistence (save/load trained model)
+- Add advanced ML models (Random Forest, XGBoost)
+- Deploy to Streamlit Cloud
