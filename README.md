@@ -23,7 +23,7 @@ scripts/       → Data import and analysis tools
 data/          → Datasets (local only, not tracked in GitHub)
 ```
 
- ## 🧾 Data Source
+ ## Data Source
 This project uses the **[USA Real Estate Dataset](https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset)** from Kaggle.
 
 After cloning this repository, download the dataset manually:
